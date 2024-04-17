@@ -1,0 +1,44 @@
+.sponsors {
+    margin-top: 200px;
+    padding: 0 20px;
+    h2{
+        font-size: 48px;
+    }
+    &__logos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 40px;
+        padding: 50px 0;
+        &__item {
+            img {
+                width: 100%;
+                max-width: 200px;
+                object-fit: cover;
+                transition: all .3s ease;
+                &:hover {
+                    scale: 1.2;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .sponsors {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sponsors {
+        h2{
+            font-size: 36px;
+        }
+        &__logos {
+            flex-wrap: wrap;
+        }
+    }
+}

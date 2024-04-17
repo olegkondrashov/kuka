@@ -1,0 +1,48 @@
+.trinityv4 {
+    position: relative;
+    width: 100%;
+  margin: -90px 90px 0 -90px;
+}
+
+.circle {
+  position: absolute;
+  border: 3px solid transparent;
+  border-top-color: #9ee925;
+  border-radius: 50%;
+  -webkit-animation: rotate linear infinite;
+          animation: rotate linear infinite;
+}
+.circle.one {
+  height:110px;
+  width: 110px;
+  left: 10px;
+  top:10px;
+  -webkit-animation-duration: 5.0s;
+          animation-duration: 5.0s;
+}
+.circle.two {
+  height: 120px;
+  width: 120px;
+  top: 5px;
+  left: 5px;
+  -webkit-animation-duration: 4.0s;
+          animation-duration: 4.0s;
+}
+.circle.three {
+  height: 130px;
+  width: 130px;
+  top: 0px;
+  left: 0px;
+  -webkit-animation-duration: 3.0s;
+          animation-duration: 3.0s;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(360deg)
+
+  }
+  to {
+    transform: rotateZ(0deg)
+  }
+}

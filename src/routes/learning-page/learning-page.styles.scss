@@ -1,0 +1,52 @@
+.learning-page {
+    text-align: justify;
+    &__content {
+        font-size: 24px;
+        > p {
+            margin: 20px;
+        }
+        > h2 {
+            margin-top: 50px;
+        }
+        &__text{
+            p {
+                margin-top: 50px;
+            }
+        }
+    }
+    &__photos {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 0;
+        img{
+            height: 100%;
+            width: 30%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .learning-page {
+        &__content {
+            p {
+                font-size: 18px;
+            }
+            &__text {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+        &__photos {
+            flex-direction: column;
+            margin: 0 10px;
+            gap: 30px;
+            img {
+                margin-top: 20px;
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,134 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background: #ffffffc9;
+    z-index: 5;
+    &__logo{
+        height: 150px;
+        width: 150px;
+        position: relative;
+    }
+}
+
+.logo {
+    object-fit: contain;
+    height: 100%;
+}
+
+.infinity4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.circle {
+    z-index: -1;
+    position: absolute;
+    border: 3px solid transparent;
+    border-top-color: #6f982b;
+    border-radius: 50%;
+    -webkit-animation: rotate linear infinite;
+    animation: rotate linear infinite;
+
+    &.one {
+        height: 110px;
+        width: 110px;
+        left: 20px;
+        top: 20px;
+        -webkit-animation-duration: 5.0s;
+        animation-duration: 5.0s;
+    }
+    &.two {
+        height: 120px;
+        width: 120px;
+        top: 15px;
+        left: 15px;
+        -webkit-animation-duration: 4.0s;
+        animation-duration: 4.0s;
+    }
+    &.three {
+        height: 130px;
+        width: 130px;
+        top: 10px;
+        left: 10px;
+        -webkit-animation-duration: 3.0s;
+        animation-duration: 3.0s;
+    }
+
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(-360deg)
+
+  }
+  to {
+    transform: rotateZ(0deg)
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .header {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        gap: 5px;
+        &__logo{
+            height: 100px;
+            width: 100px;
+        }
+    }
+    .circle {
+        &.one {
+            height: 74px;
+            width: 74px;
+            left: 14px;
+            top: 14px;
+        }
+        &.two {
+            height: 82px;
+            width: 82px;
+            top: 9px;
+            left: 9px;
+        }
+        &.three {
+            height: 90px;
+            width: 90px;
+            top: 5px;
+            left: 5px;
+        }
+    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        &__menu {
+            width: 10%;
+        }
+    }
+    .donate {
+        order: -1;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        &__menu {
+            width: 20%;
+        }
+    }
+}

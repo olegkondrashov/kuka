@@ -1,4 +1,4 @@
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import img1 from '../../assets/concept/concept-img.webp';
 import img2 from '../../assets/concept/concept-img2.webp';
 import img3 from '../../assets/concept/concept-img3.webp';

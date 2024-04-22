@@ -53,14 +53,14 @@ const Team = () => {
                         <img src={img} alt="" />
                     </div>
                     <h3>Jacky Eckel</h3>
-                    <p>Stv. Vorsitzender</p>
+                    <p>Bereichsleitung Tanz</p>
                 </div>
                 <div className="team__card">
                     <div>
                         <img src={img} alt="" />
                     </div>
                     <h3>Ulrike H.</h3>
-                    <p>Webdesignerin</p>
+                    <p>Design und Layout</p>
                 </div>
             </section>
             <Footer/>

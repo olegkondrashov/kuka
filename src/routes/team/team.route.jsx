@@ -1,3 +1,4 @@
+import { useLayoutEffect } from 'react'
 import bg from '../../assets/begegnung-bild.webp'
 import img from '../../assets/mensch.jpg'
 import Footer from '../../components/footer/footer.component'
@@ -5,6 +6,12 @@ import Header from '../../components/header/header.component'
 import './team.styles.scss'
 
 const Team = () => {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
+
     return(
         <main>
             <Header/>

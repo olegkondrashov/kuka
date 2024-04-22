@@ -1,11 +1,12 @@
-import sponsor1 from './assets/sponsors/BAFzA_2017_WebSVG_de.svg';
-import sponsor2 from './assets/sponsors/Harzwerk-Logo-1.png';
-import sponsor3 from './assets/sponsors/bfb_logo_gr-1920w.webp';
-import sponsor4 from './assets/sponsors/bundesvereinigung-soziokultureller-zentren.webp';
-import sponsor5 from './assets/sponsors/kreis-jugend-pflege-logo.webp';
-import sponsor6 from './assets/sponsors/soziokultur-logo.webp';
-import sponsor7 from './assets/sponsors/vhs-logo.png';
-import sponsor8 from './assets/sponsors/vnb-brand-retina.png';
+import sponsor1 from './assets/sponsors/new/Bundesamt-fuer-Familie.png';
+import sponsor2 from './assets/sponsors/new/Harzwerk.png';
+import sponsor3 from './assets/sponsors/new/Kultur-macht-stark.png';
+import sponsor4 from './assets/sponsors/new/Bundesverband-Soziokultur.png';
+import sponsor5 from './assets/sponsors/new/kreis-jugend-pflege.png';
+import sponsor6 from './assets/sponsors/new/Soziokultur-Niedersachsen.png';
+import sponsor7 from './assets/sponsors/new/vhs.png';
+import sponsor8 from './assets/sponsors/new/VNB.png';
+import sponsor9 from './assets/sponsors/new/UH.png';
 
 import './App.css';
 import Footer from './components/footer/footer.component';
@@ -51,6 +52,10 @@ const App = () => {
         {
             image: sponsor8,
             link: 'https://www.vnb.de/'
+        },
+        {
+            image: sponsor9,
+            link: 'https://www.ulrikehorstmann.de'
         }
     ]
 

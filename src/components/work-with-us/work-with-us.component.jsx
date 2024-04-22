@@ -9,7 +9,7 @@ import './work-with-us.styles.scss'
 const WorkWithUs = () => {
     return(
         <section className='work-with-us'>
-            <h2>----//-- Aufuf zur Zusammenarbeit ----//--</h2>
+            <h2>Join us</h2>
             <div className='work-with-us__content'>
                 <ProjectCard 
                     img = {img1}

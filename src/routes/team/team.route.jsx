@@ -1,8 +1,18 @@
 import { useLayoutEffect } from 'react'
 import bg from '../../assets/begegnung-bild.webp'
-import img from '../../assets/mensch.jpg'
 import Footer from '../../components/footer/footer.component'
 import Header from '../../components/header/header.component'
+
+import Britta from '../../assets/team/Britta_Achtel.png'
+import Thomas from '../../assets/team/Thomas_Pries.png'
+import Tom from '../../assets/team/Tom_Knackstedt.png'
+import Hosam from '../../assets/team/Hosam_Sabha.png'
+import Jacky from '../../assets/team/Jacky_Eckel.png'
+
+
+
+
+
 import './team.styles.scss'
 
 const Team = () => {
@@ -22,46 +32,46 @@ const Team = () => {
             <section className='team'>
                 <div className="team__card">
                     <div>
-                        <img src={img} alt="" />
+                        <img src={Britta} alt="" />
                     </div>
                     <h3>Britta Achtel</h3>
                     <p>Vorstandsvorsitzende</p>
                 </div>
                 <div className="team__card">
                     <div>
-                        <img src={img} alt="" />
+                        <img src={Thomas} alt="" />
                     </div>
                     <h3>Thomas Pries</h3>
                     <p>Geschäftsführer</p>
                 </div>
                 <div className="team__card">
                     <div>
-                        <img src={img} alt="" />
+                        <img src={Tom} alt="" />
                     </div>
                     <h3>Tom Knackstedt</h3>
                     <p>Stv. Vorsitzender</p>
                 </div>
                 <div className="team__card">
                     <div>
-                        <img src={img} alt="" />
+                        <img src={Hosam} alt="" />
                     </div>
                     <h3>Hosam Sabha</h3>
                     <p>Koordinator für Lernförderung</p>
                 </div>
                 <div className="team__card">
                     <div>
-                        <img src={img} alt="" />
+                        <img src={Jacky} alt="" />
                     </div>
                     <h3>Jacky Eckel</h3>
                     <p>Bereichsleitung Tanz</p>
                 </div>
-                <div className="team__card">
+                {/* <div className="team__card">
                     <div>
                         <img src={img} alt="" />
                     </div>
                     <h3>Ulrike H.</h3>
                     <p>Design und Layout</p>
-                </div>
+                </div> */}
             </section>
             <Footer/>
         </main>

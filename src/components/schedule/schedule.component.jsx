@@ -8,19 +8,19 @@ const Schedule = () => {
                 <h4>Montag</h4>
 
                 <p>
-                    von 9 bis 13 Uhr 
+                    von 8 bis 15 Uhr 
                 </p>
 
-                <h4>Dienstag </h4>
+                <h4>Mittwoch </h4>
 
                 <p>
-                    von 9 bis 13 Uhr 
+                    von 9 bis 16 Uhr 
                 </p>
 
-                <h4>Donnerstag  </h4>
+                <h4>Freitag  </h4>
 
                 <p>
-                    von 9 bis 13 Uhr 
+                    von 8 bis 13 Uhr 
                 </p>
             </div>
         </div>

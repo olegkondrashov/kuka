@@ -4,12 +4,12 @@
     &__content {
         display: flex;
         flex-direction: column;
-        gap: 100px;
+        gap: 50px;
         text-align: justify;
-        font-size: 22px;
+        font-size: 18px;
         div{
             display: flex;
-            gap: 100px;
+            gap: 50px;
         }
     }
     &__photos {
@@ -28,7 +28,7 @@
 }
 
 .title {
-    font-size: 48px;
+    font-size: 36px;
     margin-bottom: 50px;
 }
 

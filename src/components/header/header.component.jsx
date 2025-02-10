@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import logo2 from '../../logo/logo.png';
+// import logo from '../../logo/logo.png';
 import Hamburger from '../hamburger/hamburger.component';
 import MainBtn from '../main-btn/main-btn.component';
 import Navigation from '../navigation/navigation.component';
@@ -18,7 +18,8 @@ const Header = () => {
     return (
         <header className='header'>
             <a className='header__logo' href="/">
-                <img className='logo' src={logo2} alt="logo" />
+                {/* <img className='logo' src={logo} alt="logo" /> */}
+                <h2>Logo</h2>
                 <div className="infinity4">
                     <div className="circle one"></div>
                     <div className="circle two"></div>

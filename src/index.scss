@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +29,7 @@ a {
 
 .main-section {
     position: relative;
-    padding: 250px 150px 50px;
+    padding: 100px 150px 50px;
     background: rgba(167, 26, 134, .3);
     &__title {
       text-align: center;
@@ -52,13 +54,13 @@ a {
 
 @media screen and (max-width: 1024px) {
   .main-section {
-    padding: 185px 50px 50px;
+    padding: 35px 50px 50px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .main-section {
-    padding: 140px 20px 50px;
+    padding: 20px 20px 50px;
     &__title {
       font-size: 36px;
     }

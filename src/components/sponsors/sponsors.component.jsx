@@ -3,20 +3,22 @@ import './sponsors.scss';
 
 const Sponsors = ({sponsors}) => {
 
+    const logosExtended = [...sponsors, ...sponsors];
+
 
     return(
         <section className='sponsors'>
-            <h2>Danke an unsere Sponsoren:</h2>
-            <div className='sponsors__logos'>
-                {
-                    sponsors.map((item, index) => (
-                        <div key={index} className='sponsors__logos__item'>
-                            <a rel="noreferrer" target='_blank' href={item.link}>
-                                <img src={item.image} alt={`sponsor-${index}`} />
-                            </a>
-                        </div>
-                    ))
-                }
+            <h2>Partner</h2>
+            <div className="sponsors__logos">
+                <div className="sponsors__logos__item animate-scroll animate-scrollSm">
+                    {logosExtended.map((logo, index) => (
+                        <img
+                        key={index}
+                        src={logo.image}
+                        alt={logo.alt}
+                        />
+                    ))}
+                </div>
             </div>
         </section>
     )

@@ -6,7 +6,6 @@ import sponsor5 from './assets/sponsors/new/kreis-jugend-pflege.png';
 import sponsor6 from './assets/sponsors/new/Soziokultur-Niedersachsen.png';
 import sponsor7 from './assets/sponsors/new/vhs.png';
 import sponsor8 from './assets/sponsors/new/VNB.png';
-import sponsor9 from './assets/sponsors/new/UH.png';
 
 import './App.css';
 import Footer from './components/footer/footer.component';
@@ -23,39 +22,35 @@ const App = () => {
     const sponsors = [
         {
             image: sponsor1,
-            link: 'https://www.bafza.de/'
+            alt: 'Unser Sponsor'
         },
         {
             image: sponsor2,
-            link: 'https://harzwerk.de/'
+            alt: 'Unser Sponsor'
         },
         {
             image: sponsor3,
-            link: 'https://www.buendnisse-fuer-bildung.de/buendnissefuerbildung/de/home/home_node.html'
+            alt: 'Unser Sponsor'
         },
         {
             image: sponsor4,
-            link: 'https://soziokultur.de/'
+            alt: 'Unser Sponsor'
         },
         {
             image: sponsor5,
-            link: 'https://www.landkreis-goslar.de/Wir-f%FCr-Sie/Verwaltung/Interaktive-Verwaltung/index.php?object=tx,3601.24993.1#OG-3601.24993-Aufklapper-04'
+            alt: 'Unser Sponsor'
         },
         {
             image: sponsor6,
-            link: '/'
+            alt: 'Unser Sponsor'
         },
         {
             image: sponsor7,
-            link: 'https://www.vhs-goslar.de/'
+            alt: 'Unser Sponsor'
         },
         {
             image: sponsor8,
-            link: 'https://www.vnb.de/'
-        },
-        {
-            image: sponsor9,
-            link: 'https://www.ulrikehorstmann.de'
+            alt: 'Unser Sponsor'
         }
     ]
 

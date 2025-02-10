@@ -8,16 +8,16 @@ const Contacts = () => {
                 <h4>Postanschrift:</h4>
 
                 <p>
-                    Kunstkarussell e.V. <br />
-                    Herzog-Wilhelm-Straße 12A <br />
-                    38667 Bad Harzburg <br />
+                    Verein e.V. <br />
+                    Musterstraße 7 <br />
+                    12345 Musterstadt <br />
                 </p>
 
                 <h4>E-Mail:</h4> 
-                <a href="mailto:info@kunstkarussell.de">info@kunstkarussell.de</a>
+                <a href="mailto:">info@mustermail.de</a>
 
                 <h4>Telefon:</h4>
-                <a href="tel:053225533277">0 53 22 / 55 33 277</a>
+                <a href="tel:012345678901">0 12 34 / 56 78 901 </a>
             </div>
         </div>
     )

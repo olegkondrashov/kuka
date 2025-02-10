@@ -1,13 +1,12 @@
 import Header from "../../components/header/header.component";
 import Footer from "../../components/footer/footer.component";
-import img from '../../assets/motto-hintergrund.jpg';
+import img from '../../assets/motto-hintergrund.webp';
 import img1 from '../../assets/concept/concept-img.webp';
 import img2 from '../../assets/concept/concept-img2.webp';
 import img3 from '../../assets/concept/concept-img3.webp';
 import { useLayoutEffect, useState } from "react";
 
 import './learning-page.styles.scss'
-import PopUpKurs from "../../components/pop-up-kurs/pop-up-kurs.component";
 import Projects from "../../components/projects/projects.component";
 
 const LearningPage = () => {
@@ -24,7 +23,6 @@ const LearningPage = () => {
 
     return(
         <main className="learning-page">
-            {isClicked ? <PopUpKurs/> : null}
             <Header/>
             <section className="main-section learning-page__content">
                 <h1 className="main-section__title learning-page__title">Lernen leichter machen</h1>

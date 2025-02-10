@@ -9,16 +9,18 @@ import MainBtn from '../main-btn/main-btn.component';
 const Learning = () => {
     return(
         <section className="learning">
-            <h1 className='learning__title'>Lernen leichter machen</h1>
+            <h2 className='learning__title'>Gemeinsam wachsen – Bildung & Integration</h2>
             <div className='learning__content'>
                 <p>
-                    Das<strong> Kunstkarussell</strong>  ( KuKa) fördert die kulturelle und künstlerische Bildung von Kindern und Jugendlichen sowie den Austausch zwischen Generationen und Kulturen. In der Tätigkeit des Vereins entstand in den vergangenen Jahren ein dichtes Netzwerk aus Schulen, Vereinen und insbesondere Institutionen der Jugendpflege in Stadt und Landkreis.
+                    Unser <strong>Verein</strong> setzt sich für die individuelle Förderung von Kindern, Jugendlichen und Erwachsenen ein. Der Verein unterstützt Lernende durch gezielte Bildungsangebote, Nachhilfe und Mentoring-Programme, um schulische und persönliche Erfolge zu ermöglichen. Dabei wird eng mit Schulen, Bildungseinrichtungen und anderen gemeinnützigen Organisationen zusammengearbeitet.
                 </p>
 
                 <p>
-                    Das <strong>KuKa</strong> ist als soziokultureller Bildungsträger unter anderem im Landesverband Soziokultur Niedersachsen, dem Landesverband Theaterpädagogik Niedersachsen (LaT) und im Verein Niedersächsischer Bildungsinitiativen (VNB) organisiert und als Träger der freien Jugendhilfe aktiv.
+                    Als engagierter Bildungsträger ist der <strong>Verein</strong> in verschiedenen Bildungsnetzwerken aktiv und bietet Unterstützung für Menschen mit unterschiedlichen Lernbedürfnissen. Ziel ist es, Bildung für alle zugänglich zu machen und individuelle Potenziale bestmöglich zu entfalten.
                 </p>
             </div>
+
+
             <div className='learning__photos'>
                 <img src={img1} alt="learning photo1" />
                 <img src={img2} alt="learning photo2" />

@@ -8,17 +8,17 @@ import './concept.styles.scss'
 const Concept = () => {
     return(
         <section className='concept'>
-            <h2 className='title concept__title'>Das Konzept Kunstkarussell</h2>
+            <h2 className='title concept__title'>Das Konzept unseres Vereins</h2>
             <div className='concept__content'>
                 <p>
-                    Das <strong>Kunstkarussell</strong> (KuKa) fördert die kulturelle und künstlerische Bildung von Kindern und Jugendlichen sowie den Austausch zwischen Generationen und Kulturen. In der Tätigkeit des Vereins entstand in den vergangenen Jahren ein dichtes Netzwerk aus Schulen, Vereinen und insbesondere Institutionen der Jugendpflege in Stadt und Landkreis.
+                    Unser Verein setzt sich für Chancengleichheit in der Bildung ein. Wir unterstützen Kinder, Jugendliche und Erwachsene dabei, ihre schulischen und persönlichen Ziele zu erreichen. Durch individuelle Förderung, Nachhilfe und Mentoring schaffen wir eine Lernumgebung, die motiviert und stärkt. Unser Ziel ist es, Bildung für alle zugänglich zu machen und nachhaltige Lernprozesse zu fördern.
                 </p>
                 <div>
                     <p>
-                        Das <strong>KuKa</strong> ist als soziokultureller Bildungsträger unter anderem im Landesverband Soziokultur Niedersachsen, dem <strong>Landesverband Theaterpädagogik Niedersachsen</strong> ( <strong>LaT</strong> ) und im <strong>Verein Niedersächsischer Bildungsinitiativen</strong> ( <strong>VNB</strong> ) organisiert und als Träger der freien Jugendhilfe aktiv.
+                        Wir bieten gezielte Unterstützung für Lernende aller Altersgruppen. Dazu gehören Hausaufgabenhilfe, Nachhilfe in verschiedenen Fächern, Prüfungsvorbereitungen und individuelle Lernbegleitung. Unser Netzwerk aus qualifizierten Fachkräften und Ehrenamtlichen ermöglicht eine persönliche Betreuung. Mit flexiblen Programmen helfen wir, Lernbarrieren zu überwinden und den schulischen Erfolg zu sichern.
                     </p>
                     <p>
-                        In den Räumlichkeiten des KuKa-Hauses finden neben soziokulturellen Angeboten auch <strong>Sprachkurse für Geflüchtete</strong> statt. Vor allem Sprachkurse für geflüchtete Mütter mit Kindern unter drei Jahren. Der Schwerpunkt liegt dabei auf Kursformaten, die neben dem eigentlichen Sprachunterricht auch soziokulturelle Inhalte als Sozialraum- oder Berufsorientierung beinhalten.
+                        Wir glauben, dass Bildung mehr ist als Schulwissen. Unser Ansatz kombiniert fachliche Unterstützung mit Motivation, Selbstbewusstsein und Lernstrategien. In kleinen Gruppen oder Einzelcoachings gehen wir auf individuelle Bedürfnisse ein und stärken eigenständiges Lernen. Durch eine vertrauensvolle Umgebung möchten wir Freude am Lernen vermitteln und langfristige Erfolge ermöglichen.
                     </p>
                 </div>
             </div>

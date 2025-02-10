@@ -1,0 +1,42 @@
+.subscribe, .subscribe>form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    form {
+        input {
+            border: none;
+            border-bottom: 1px solid #222;
+            margin-bottom: 20px;
+            height: 50px;
+            font-size: 18px;
+            padding: 0 5px;
+            &:focus {
+                outline: none;
+            }
+        }
+        button{
+            height: 50px;
+            width: max-content;
+            border: none;
+            background: none;
+            font-size: 24px;
+            font-weight: 900;
+            color: #6f982b;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        span {
+            color: #b40000;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe {
+        button{
+            margin: 0 auto;
+        }
+    }
+}

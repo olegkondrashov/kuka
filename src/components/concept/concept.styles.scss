@@ -7,19 +7,10 @@
         gap: 50px;
         text-align: justify;
         font-size: 18px;
+        margin-bottom: 80px;
         div{
             display: flex;
             gap: 50px;
-        }
-    }
-    &__photos {
-        display: flex;
-        justify-content: space-between;
-        margin: 80px 0;
-        img{
-            height: 100%;
-            width: 30%;
-            object-fit: cover;
         }
     }
     &__btn {
@@ -55,14 +46,6 @@
             gap: 50px;
             font-size: 14px;
             flex-direction: column;
-        }
-        &__photos {
-            flex-direction: column;
-            align-items: center;
-            gap: 50px;
-            img {
-                width: 100%;
-            }
         }
     }
 }

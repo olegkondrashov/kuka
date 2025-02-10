@@ -3,7 +3,6 @@ import Header from "../../components/header/header.component"
 import Projects from "../../components/projects/projects.component"
 
 import bg from '../../assets/sprachcafe-bg.webp'
-import map from '../../assets/map.jpg'
 
 import './sprachcafe.styles.scss'
 import { useLayoutEffect } from "react"
@@ -40,8 +39,8 @@ const Sprachcafe = () => {
                 </h2>
                 <div className="sprachcafe-content__meet">
                     <p>Die Treffen findet jede Woche <strong>donnerstags von 15 bis 17 Uhr</strong> statt.</p>
-                    <p>Treffpunkt: <strong>38667 Bad Harzburg, Herzog Wilhelm Straße 12A</strong></p>
-                    <img src={map} alt="map to Sprachcafe" />
+                    <p>Treffpunkt: <strong>01234 Berlin, Musterstraße 1</strong></p>
+                    <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155421.70603778018!2d13.259927460871106!3d52.506938616198475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin!5e0!3m2!1sde!2sde!4v1739202678446!5m2!1sde!2sde"  style={{border: 0, width: '80vw', height: '600px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
             <Projects/>

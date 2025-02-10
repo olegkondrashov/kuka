@@ -16,6 +16,7 @@ import Concept from './components/concept/concept.component';
 import Learning from './components/learning/learning.component';
 import Projects from './components/projects/projects.component';
 import WorkWithUs from './components/work-with-us/work-with-us.component';
+import Container from './components/container/container.component';
 
 const App = () => {
 
@@ -59,10 +60,14 @@ const App = () => {
             <Header/>
 
             <Motto/>
-            <Learning/>
-            <Projects/>
-            <Concept/>
-            <WorkWithUs/>
+            
+            <Container>
+                <Learning/>
+                <Projects/>
+                <Concept/>
+                <WorkWithUs/>
+            </Container>
+
             <Sponsors sponsors={sponsors}/>
 
             <Footer/>

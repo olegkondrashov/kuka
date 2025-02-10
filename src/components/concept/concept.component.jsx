@@ -1,6 +1,4 @@
-import img1 from '../../assets/concept/concept-img.webp';
-import img2 from '../../assets/concept/concept-img2.webp';
-import img3 from '../../assets/concept/concept-img3.webp';
+
 import MainBtn from '../main-btn/main-btn.component';
 
 import './concept.styles.scss'
@@ -21,11 +19,6 @@ const Concept = () => {
                         Wir glauben, dass Bildung mehr ist als Schulwissen. Unser Ansatz kombiniert fachliche Unterstützung mit Motivation, Selbstbewusstsein und Lernstrategien. In kleinen Gruppen oder Einzelcoachings gehen wir auf individuelle Bedürfnisse ein und stärken eigenständiges Lernen. Durch eine vertrauensvolle Umgebung möchten wir Freude am Lernen vermitteln und langfristige Erfolge ermöglichen.
                     </p>
                 </div>
-            </div>
-            <div className='concept__photos'>
-                <img src={img1} alt="concept photo1" />
-                <img src={img2} alt="concept photo2" />
-                <img src={img3} alt="concept photo3" />
             </div>
             <MainBtn link='/concept' name={'Lesen weiter'} />
         </section>

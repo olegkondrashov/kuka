@@ -26,7 +26,7 @@ const Learning = () => {
                 <img src={img2} alt="learning photo2" />
                 <img src={img3} alt="learning photo3" />
             </div>
-            <MainBtn link='/learning-page' name={'Lesen weiter'} className='learning__btn'/>
+            <MainBtn link='/bildung' name={'Lesen weiter'} className='learning__btn'/>
             <Outlet />
         </section>
     )

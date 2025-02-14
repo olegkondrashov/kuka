@@ -37,7 +37,7 @@ const Event = () => {
                 text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima, magni omnis labore sint magnam enim ullam? Necessitatibus incidunt tenetur tempore autem voluptatibus dolor, numquam, error ducimus explicabo nemo perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa et amet, excepturi quae maiores delectus totam in harum esse placeat tenetur adipisci alias at obcaecati. Deserunt rerum odit quod ratione?'}
             />
             <EventSection 
-                link='/bastelwerkstatt'
+                link='/projects'
                 img={basteln} 
                 title='Bastelwerkstatt'
                 date='Donnerstags 15:00 - 17:00'
@@ -53,7 +53,7 @@ const Event = () => {
                 text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum minima, magni omnis labore sint magnam enim ullam? Necessitatibus incidunt tenetur tempore autem voluptatibus dolor, numquam, error ducimus explicabo nemo perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa et amet, excepturi quae maiores delectus totam in harum esse placeat tenetur adipisci alias at obcaecati. Deserunt rerum odit quod ratione?'}
             />
             <EventSection 
-                link='/sommerferien'
+                link='/projects'
                 img={img} 
                 title='Sommerferien'
                 date='24.06.2024 - 03.08.2024 8:00 - 20:00'

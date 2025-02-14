@@ -20,7 +20,7 @@ const Concept = () => {
                     </p>
                 </div>
             </div>
-            <MainBtn link='/concept' name={'Lesen weiter'} />
+            <MainBtn link='/concept-page' name={'Lesen weiter'} />
         </section>
     )
 }

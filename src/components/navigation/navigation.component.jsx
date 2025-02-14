@@ -12,7 +12,7 @@ const Navigation = ({className}) => {
                     <Link to='/projects'>Projekte</Link>
                 </li>
                 <li className='navigation__menu__item'>
-                    <Link to="/deutschkurse">Unser Konzept</Link>
+                    <Link to="/concept-page">Unser Konzept</Link>
                 </li>
                 <li className='navigation__menu__item'>
                     <Link to="/team">Team</Link>

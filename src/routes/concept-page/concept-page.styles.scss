@@ -1,0 +1,32 @@
+.deutschkurse {
+  text-align: justify;
+}
+
+.kurs-submit {
+  display: block;
+  color: #222;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  border-bottom: 2px #6f982b solid;
+  padding: 10px 20px;
+  margin: 30px auto;
+  cursor: pointer;
+
+  &:hover {
+    border-bottom: 2px solid #222;
+  }
+}
+
+.deutschkurse-section {
+  padding: 3rem 1rem;
+
+  .concept-details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}

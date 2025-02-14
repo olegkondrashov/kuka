@@ -11,7 +11,7 @@ const ProjectCard = ({img, title, content, link}) => {
             </div>
             <div className='offer-card__bottom'>
                 <p>{content}</p>
-                <Link to={link}>weiterlesen</Link>
+                {link && <Link to={link}>weiterlesen</Link>}
             </div>
         </div>
     )

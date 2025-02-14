@@ -16,52 +16,53 @@ const projects = [
   },
   {
     id: 2,
-    img: imgComputer,
-    title: 'Computer für Alle',
-    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ullam maxime...',
-    link: '/computer-fuer-alle'
-  },
-  {
-    id: 3,
     img: imgDeutsch,
     title: 'Deutschkurse',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ullam maxime...',
-    link: '/deutschkurse'
+    link: '/bildung'
   },
+  {
+    id: 3,
+    img: imgDance,
+    title: 'Dance-Academy',
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ullam maxime...',
+    link: '/tanzen'
+  },
+  
   {
     id: 4,
     img: imgNachhilfe,
     title: 'Lernförderung',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ullam maxime...',
-    link: '/learning-page'
+    link: '/bildung'
   },
   {
     id: 5,
     img: imgBasteln,
     title: 'Bastelwerkstatt',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ullam maxime...',
-    link: '/bastelwerkstatt'
+    link: '/projects'
   },
   {
     id: 6,
-    img: imgDance,
-    title: 'Dance-Academy',
+    img: imgComputer,
+    title: 'Computer für Alle',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ullam maxime...',
-    link: '/dance-academy'
+    link: '/projects'
   },
   {
     id: 7,
     img: imgNachhilfe,
     title: 'Lernförderung',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ullam maxime...',
-    link: '/learning-page'
+    link: '/bildung'
   },
   {
     id: 8,
     img: imgComputer,
     title: 'Computer für Alle',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ullam maxime...',
-    link: '/computer-fuer-alle'
+    link: '/projects'
   }
 ];
 

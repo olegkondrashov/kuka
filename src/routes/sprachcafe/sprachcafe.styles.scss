@@ -3,10 +3,6 @@
         top: -80%;
         height: 180%;
     }
-    &__description {
-        text-align: center;
-        font-size: 24px;
-    }
     &-content {
         margin-top: 50px;
         
@@ -36,9 +32,6 @@
 
 @media screen and (max-width: 768px) {
     .sprachcafe  {
-        &__description {
-            font-size: 18px;
-        }
         &-content {
             &__points {
                 flex-direction: column;

@@ -20,7 +20,7 @@ const Sprachcafe = () => {
             <section className="main-section sprachcafe">
                 <img className="main-section__bg sprachcafe__bg" src={bg} alt="sprachcafe" />
                 <h1 className="main-section__title">Was ist das Sprachcafè?</h1>
-                <h4 className="sprachcafe__description">Das Sprachcafé ist ein Treffpunkt, bei dem Sie an verschiedenen Sprachtischen jede Woche Ihre Fremdsprachenkenntnisse vertiefen und üben. Es werden Spiele gespielt oder Sie können sich mit Ihren Kommiliton*innen über verschiedene Themen austauschen. Sie haben die Möglichkeit an den Sprachtischen hin und her zu wechseln - so kommt gewiss keine Langeweile auf!</h4>
+                <p>Das Sprachcafé ist ein Treffpunkt, bei dem Sie an verschiedenen Sprachtischen jede Woche Ihre Fremdsprachenkenntnisse vertiefen und üben. Es werden Spiele gespielt oder Sie können sich mit Ihren Kommiliton*innen über verschiedene Themen austauschen. Sie haben die Möglichkeit an den Sprachtischen hin und her zu wechseln - so kommt gewiss keine Langeweile auf!</p>
             </section>
             <section className="sprachcafe-content">
                 <h2>Was ist der Zweck von Sprachcafè?</h2>
@@ -30,7 +30,7 @@ const Sprachcafe = () => {
                     </div>
                     <div>Die Teilnahme an den Treffen ist kostenlos und ohne, dass jemand damit Geld verdienen möchte. Betreiberinnen von Sprachcafés machen dies, um Menschen aus aller Welt in unserer Stadt zusammenzubringen und dass diese Ihre Sprachfähigkeiten verbessern können. Insbesondere die Kommunikation und der Mut zu sprechen, soll sich verbessern.</div>
                     <div>Egal wie gut Dein Sprachstand, wie jung, oder wie alt Du bist. Komme vorbei, sei Du selbst und schaue Dir an, ob Dir die Treffen zusagen oder auch nicht. Ich denke, jeder hat eine Geschichte, die es sich lohnt zu erzählen.</div>
-                    <div>ETWAS ÜBER HILFE BEIM AUSFÜHLLEN DER UNTERLAGEN</div>
+                    <div>Wir unterstützen Sie nicht nur in der Bildungsförderung, sondern helfen Ihnen auch gerne bei der Ausfüllung von Dokumenten, damit alle Formalitäten schnell und korrekt erledigt werden.</div>
                 </div>
             </section>
             <section className="sprachcafe-content">
